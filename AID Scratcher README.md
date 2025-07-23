@@ -1,4 +1,4 @@
-# AID Scratcher Explanation
+# AID Scratcher (Addon ID Scratcher)
 ## AID Scratcher is a lightweight Python script that automates generating a resource.AddWorkshop Lua file for Garry's Mod servers using a Steam Workshop Collection ID.
 
 ### 🔧 Features
