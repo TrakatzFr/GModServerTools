@@ -28,7 +28,7 @@ def main(api_key, collection_id):
     try:
         addon_ids = fetch_collection_addons(api_key, collection_id)
         if not addon_ids:
-            print("[!] Keine Addons gefunden oder Collection ist leer.")
+            print("[!] No Addons found! Collection seems to be empty.")
             return
         write_lua_file(addon_ids)
     except Exception as e:
